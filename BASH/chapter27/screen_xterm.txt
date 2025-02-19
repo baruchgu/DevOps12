@@ -1,0 +1,44 @@
+baruchgu@baruchgu:~/Documents/Devops12/BASH/chapter27$ w
+ 20:21:52 up 12:59,  1 user,  load average: 0.20, 0.20, 0.23
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+baruchgu tty7     :0               Thu17    4days  6:12   1.36s cinnamon-session --session cinnamon
+baruchgu@baruchgu:~/Documents/Devops12/BASH/chapter27$ who
+baruchgu tty7         2025-02-13 17:42 (:0)
+baruchgu@baruchgu:~/Documents/Devops12/BASH/chapter27$ who am i
+baruchgu@baruchgu:~/Documents/Devops12/BASH/chapter27$ whoami
+baruchgu
+baruchgu@baruchgu:~/Documents/Devops12/BASH/chapter27$ id
+uid=1000(baruchgu) gid=1000(baruchgu) groups=1000(baruchgu),4(adm),20(dialout),21(fax),24(cdrom),25(floppy),26(tape),27(sudo),29(audio),30(dip),44(video),46(plugdev),100(users),106(netdev),110(lpadmin),115(bluetooth),123(scanner)
+baruchgu@baruchgu:~/Documents/Devops12/BASH/chapter27$ su valentina
+Password: 
+valentina@baruchgu:/home/baruchgu/Documents/Devops12/BASH/chapter27$ exit
+exit
+baruchgu@baruchgu:~/Documents/Devops12/BASH/chapter27$ su - valentina
+Password: 
+valentina@baruchgu:~$ pwd
+/home/valentina
+valentina@baruchgu:~$ exit
+logout
+baruchgu@baruchgu:~/Documents/Devops12/BASH/chapter27$ adduser  tolik
+adduser: Only root may add a user or group to the system.
+baruchgu@baruchgu:~/Documents/Devops12/BASH/chapter27$ sudo adduser  tolik
+[sudo] password for baruchgu:         
+Adding user `tolik' ...
+Adding new group `tolik' (1002) ...
+Adding new user `tolik' (1002) with group `tolik (1002)' ...
+Creating home directory `/home/tolik' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for tolik
+Enter the new value, or press ENTER for the default
+	Full Name []: Tolik Dodkin
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] 
+Adding new user `tolik' to supplemental / extra groups `users' ...
+Adding user `tolik' to group `users' ...
+
