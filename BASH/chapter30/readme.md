@@ -22,4 +22,8 @@ your environment.
 > su - $USER
 
 5. Do you also know the order in which they are executed?
-6. When an application depends on a sett
+6.    
+    Q: When an application depends on a setting in $HOME/.profile, does it matter whether $HOME/.bash_profile exists or not?   
+    A: If the application is a bash script, it source $HOME/.bash_profile in the begining
+
+
