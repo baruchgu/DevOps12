@@ -1,8 +1,10 @@
-# Chapter 30 practice: User profiles
+# Linux Fundamentals, by Paul Cobbaut
+## Home Work: Chapter 30 practice: User profiles
+
    
 1. Make a list of all the profile files on your system.
 
-> `ls -lt /etc/{bash.bashrc,bash_completion,profile} `
+> `ls -lt /etc/{bash.bashrc,bash_completion,profile}`   
 >      -rw-r--r-- 1 root root 2012 Feb 17 17:04 /etc/bash.bashrc   
 >      -rw-r--r-- 1 root root  769 Apr 10  2021 /etc/profile   
 >      -rw-r--r-- 1 root root   45 Jan 25  2020 /etc/bash_completion   
@@ -33,11 +35,10 @@ your environment.
 - /etc/bash.bashrc - System-wide configuration file for interactive shells.
 - ~/.bashrc - User-specific configuration file for interactive shells.  
 
-Note that .bash_profile, .bash_login, and .profile are only for login shells, while .bashrc is used for interactive non-login shells.
+Note: .bash_profile, .bash_login, and .profile are only for login shells, while .bashrc is used for interactive non-login shells.
 
-6.
+6. When an application depends on a setting in $HOME/.profile, does it matter whether $HOME/.bash_profile exists or not?   
 
-> Q: When an application depends on a setting in $HOME/.profile, does it matter whether $HOME/.bash_profile exists or not?   
-> A: If the application is a bash script, it source $HOME/.bash_profile in the begining
+> If the application is a bash script, it source $HOME/.bash_profile in the begining
 
 
