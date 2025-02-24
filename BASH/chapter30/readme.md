@@ -18,7 +18,7 @@
 4. Try several different ways to obtain a shell (su, su -, ssh, tmux, gnome-terminal, Ctrlalt-F1, ...) and verify which of your custom variables, aliases and function are present in
 your environment.
 
-> su $USER
+> su   $USER  
 > su - $USER
 
 5. Do you also know the order in which they are executed?
