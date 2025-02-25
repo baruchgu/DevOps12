@@ -11,7 +11,7 @@
 task=1
 ################################################
 
-clear
+clear # try to use more "printf" command
 echo -e "\n\tTASK $(( task++ )): Run a command that displays only your currently logged on user name."
 whoami
 
