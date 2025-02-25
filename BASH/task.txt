@@ -1,0 +1,2 @@
+This homework includes the chapters 27-35 in the Linux book
+Date 25/02/2025

@@ -35,6 +35,7 @@ BASH/
 ├── chapter32
 │   └── permissions32.sh
 ├── chapter33
+│   └── permissions33.sh
 ├── chapter34
 ├── chapter35
 │   └── links35.sh
