@@ -1,5 +1,8 @@
 # DevOps12 Professional
 ##### Technion course 2025, BASH module
+
+![Devops logo](pic/devops_screen.png)
+
 ---
 ## Introduction  
 This repository holds the homework tasks of Linux/BASH sub-module based on the __Linux Fundamentals__ book
