@@ -37,7 +37,7 @@ BASH/
 ├── chapter33
 ├── chapter34
 ├── chapter35
-├── contributers.txt
+│   └── links35.sh
 ├── others
 │   └── build_iso
 │       ├── linux_setuptask_backup.sh

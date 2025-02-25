@@ -12,10 +12,17 @@ chgrp sports my_tmp_dir
 
 # task 1b
 chmod 755 $HOME
-chmod 575 my_tmp_dir
+chmod 775 my_tmp_dir
 
 # task 1c
-chmod 2575 my_tmp_dir
+chmod 2775 my_tmp_dir
 
 # task 1d
 chmod +t my_tmp_dir
+
+# task 2
+ls -lt /usr/bin/passwd
+sudo chmod 755 /usr/bin/passwd
+
+ls -lt /usr/bin/passwd
+sudo chmod u+xs /usr/bin/passwd
