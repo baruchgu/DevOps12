@@ -1,7 +1,7 @@
 # DevOps12 Professional
 ##### Technion course 2025, BASH module
 
-![Devops logo](pic/devops_screen.png)
+![Shalom BASH logo](assets/shalom_bash.png)
 
 ---
 ## Introduction  
