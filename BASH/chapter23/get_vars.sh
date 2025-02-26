@@ -7,7 +7,7 @@
 ################################################
 
 # define and print two vars
-var1="debuan"
+var1="debuan" # pretty sure it is called Debian, unless you mean "devuan", which completely different story
 var2="Linux"
 
 echo $var1 $var2

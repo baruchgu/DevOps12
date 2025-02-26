@@ -7,4 +7,5 @@
 - [Chapter 30. user profiles](chapter30/readme.md)
 - [Chapter 31. groups](chapter31/groups31.sh)
 - [Chapter 32. standard file permissions](chapter32/permissions32.sh)
-- [Chapter 33. standard file permissions](chapter32/permissions32.sh)
+- [Chapter 33. standard file permissions](chapter33/permissions33.sh)
+- [Chapter 35. links](chapter35/links35.sh)
