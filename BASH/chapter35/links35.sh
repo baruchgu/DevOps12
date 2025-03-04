@@ -27,7 +27,7 @@ echo "The file name and its content is not saved in inode"
 ln -s summer.txt slsummer.txt
 
 # task 7
-find . -inum $(ls -i slsummer.txt | cit -f1 -d ' ') 2> /dev/null
+find . -inum $(ls -i slsummer.txt | cut -f1 -d ' ') 2> /dev/null
 echo "There is one file"
 
 # task 8
